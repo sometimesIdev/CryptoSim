@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		570652B328A452F1009F0DBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 570652B228A452F1009F0DBB /* Assets.xcassets */; };
 		5739A17C2824902E00BB2F31 /* CoinRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5739A17B2824902E00BB2F31 /* CoinRowView.swift */; };
 		5739A17E282490A000BB2F31 /* PreviewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5739A17D282490A000BB2F31 /* PreviewProvider.swift */; };
 		5739A1802824954500BB2F31 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5739A17F2824954500BB2F31 /* Double.swift */; };
@@ -42,7 +43,6 @@
 		5739A1C6282F07FA00BB2F31 /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5739A1C5282F07FA00BB2F31 /* LaunchView.swift */; };
 		578AEE98282475F500E75542 /* CryptoSimApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578AEE97282475F500E75542 /* CryptoSimApp.swift */; };
 		578AEE9F282475F600E75542 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 578AEE9E282475F600E75542 /* Preview Assets.xcassets */; };
-		578AEEA62824769400E75542 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 578AEEA52824769400E75542 /* Assets.xcassets */; };
 		578AEEA92824780F00E75542 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578AEEA82824780F00E75542 /* Color.swift */; };
 		578AEEAF28247AC900E75542 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578AEEAE28247AC900E75542 /* HomeView.swift */; };
 		578AEEB328247BAF00E75542 /* CircleButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578AEEB228247BAF00E75542 /* CircleButtonView.swift */; };
@@ -51,6 +51,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		570652B228A452F1009F0DBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5739A17B2824902E00BB2F31 /* CoinRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinRowView.swift; sourceTree = "<group>"; };
 		5739A17D282490A000BB2F31 /* PreviewProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewProvider.swift; sourceTree = "<group>"; };
 		5739A17F2824954500BB2F31 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
@@ -87,7 +88,6 @@
 		578AEE94282475F500E75542 /* CryptoSim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoSim.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		578AEE97282475F500E75542 /* CryptoSimApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoSimApp.swift; sourceTree = "<group>"; };
 		578AEE9E282475F600E75542 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		578AEEA52824769400E75542 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../Downloads/Resources/Assets.xcassets; sourceTree = "<group>"; };
 		578AEEA82824780F00E75542 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		578AEEAE28247AC900E75542 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		578AEEB228247BAF00E75542 /* CircleButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonView.swift; sourceTree = "<group>"; };
@@ -214,7 +214,7 @@
 				578AEEA7282477F900E75542 /* Extensions */,
 				5739A1832824A97F00BB2F31 /* Services */,
 				578AEE97282475F500E75542 /* CryptoSimApp.swift */,
-				578AEEA52824769400E75542 /* Assets.xcassets */,
+				570652B228A452F1009F0DBB /* Assets.xcassets */,
 				578AEE9D282475F600E75542 /* Preview Content */,
 			);
 			path = CryptoSim;
@@ -373,8 +373,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5739A1C4282F059C00BB2F31 /* LaunchScreen.storyboard in Resources */,
+				570652B328A452F1009F0DBB /* Assets.xcassets in Resources */,
 				578AEE9F282475F600E75542 /* Preview Assets.xcassets in Resources */,
-				578AEEA62824769400E75542 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

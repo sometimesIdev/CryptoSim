@@ -96,7 +96,7 @@ extension SettingsView {
   private var developerSection: some View {
     Section {
       VStack(alignment: .leading) {
-        Image("thoughtbubble2color")
+        Image("thoughtbubble2nobg")
           .resizable()
           .scaledToFit()
           .frame(height: 100)
